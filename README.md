@@ -32,5 +32,10 @@ export default {
 - This project was created using the following commands
 
 npm create vite@latest
+
 npm install vite-tsconfig-paths --save-dev
+
 npm install eslint prettier eslint-config-prettier --save-dev
+
+enable github pages on hostinger:
+https://dev.to/sidmohanty11/how-to-add-a-custom-domain-to-github-pages-hostinger-edition-p4p

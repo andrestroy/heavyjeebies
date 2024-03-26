@@ -1,0 +1,47 @@
+/* GameMenu.css */
+.game-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-header {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #2d2d2d;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.menu-items {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #2d2d2d;
+    border: 1px solid #888;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.menu-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: red;
+}
+
+    .menu-item:hover {
+        background-color: #333;
+    }
+
+    .menu-item:last-child {
+        border-top: 1px solid #888;
+    }
